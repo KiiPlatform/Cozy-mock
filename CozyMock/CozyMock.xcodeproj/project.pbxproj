@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D327E61C0D3ED3000E4837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D327E51C0D3ED3000E4837 /* AppDelegate.swift */; };
+		D5D327E81C0D3ED3000E4837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D327E71C0D3ED3000E4837 /* ViewController.swift */; };
+		D5D327EB1C0D3ED3000E4837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D327E91C0D3ED3000E4837 /* Main.storyboard */; };
+		D5D327ED1C0D3ED3000E4837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D327EC1C0D3ED3000E4837 /* Assets.xcassets */; };
+		D5D327F01C0D3ED3000E4837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D327EE1C0D3ED3000E4837 /* LaunchScreen.storyboard */; };
+		D5D327FD1C0D8787000E4837 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D327FC1C0D8787000E4837 /* Definitions.swift */; };
+		D5D327FF1C0D927F000E4837 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D327FE1C0D927F000E4837 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5D327E21C0D3ED3000E4837 /* CozyMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CozyMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D327E51C0D3ED3000E4837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D327E71C0D3ED3000E4837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D327EA1C0D3ED3000E4837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D327EC1C0D3ED3000E4837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D327EF1C0D3ED3000E4837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5D327F11C0D3ED3000E4837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D327FC1C0D8787000E4837 /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		D5D327FE1C0D927F000E4837 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D327DF1C0D3ED3000E4837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D327FF1C0D927F000E4837 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D327D91C0D3ED3000E4837 = {
+			isa = PBXGroup;
+			children = (
+				D5D327FE1C0D927F000E4837 /* CoreBluetooth.framework */,
+				D5D327E41C0D3ED3000E4837 /* CozyMock */,
+				D5D327E31C0D3ED3000E4837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D327E31C0D3ED3000E4837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D327E21C0D3ED3000E4837 /* CozyMock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D327E41C0D3ED3000E4837 /* CozyMock */ = {
+			isa = PBXGroup;
+			children = (
+				D5D327E51C0D3ED3000E4837 /* AppDelegate.swift */,
+				D5D327E71C0D3ED3000E4837 /* ViewController.swift */,
+				D5D327E91C0D3ED3000E4837 /* Main.storyboard */,
+				D5D327EC1C0D3ED3000E4837 /* Assets.xcassets */,
+				D5D327EE1C0D3ED3000E4837 /* LaunchScreen.storyboard */,
+				D5D327F11C0D3ED3000E4837 /* Info.plist */,
+				D5D327FC1C0D8787000E4837 /* Definitions.swift */,
+			);
+			path = CozyMock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D327E11C0D3ED3000E4837 /* CozyMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D327F41C0D3ED3000E4837 /* Build configuration list for PBXNativeTarget "CozyMock" */;
+			buildPhases = (
+				D5D327DE1C0D3ED3000E4837 /* Sources */,
+				D5D327DF1C0D3ED3000E4837 /* Frameworks */,
+				D5D327E01C0D3ED3000E4837 /* Resources */,
+				D5D327F91C0D4A11000E4837 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CozyMock;
+			productName = CozyMock;
+			productReference = D5D327E21C0D3ED3000E4837 /* CozyMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D327DA1C0D3ED3000E4837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = cozy;
+				TargetAttributes = {
+					D5D327E11C0D3ED3000E4837 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N5QLD3RVE2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D5D327DD1C0D3ED3000E4837 /* Build configuration list for PBXProject "CozyMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D327D91C0D3ED3000E4837;
+			productRefGroup = D5D327E31C0D3ED3000E4837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D327E11C0D3ED3000E4837 /* CozyMock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D327E01C0D3ED3000E4837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D327F01C0D3ED3000E4837 /* LaunchScreen.storyboard in Resources */,
+				D5D327ED1C0D3ED3000E4837 /* Assets.xcassets in Resources */,
+				D5D327EB1C0D3ED3000E4837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5D327F91C0D4A11000E4837 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/BluetoothKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D327DE1C0D3ED3000E4837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D327E81C0D3ED3000E4837 /* ViewController.swift in Sources */,
+				D5D327FD1C0D8787000E4837 /* Definitions.swift in Sources */,
+				D5D327E61C0D3ED3000E4837 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5D327E91C0D3ED3000E4837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D327EA1C0D3ED3000E4837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D327EE1C0D3ED3000E4837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D327EF1C0D3ED3000E4837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D327F21C0D3ED3000E4837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D327F31C0D3ED3000E4837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D327F51C0D3ED3000E4837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = CozyMock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cozy.CozyMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5D327F61C0D3ED3000E4837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = CozyMock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cozy.CozyMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D327DD1C0D3ED3000E4837 /* Build configuration list for PBXProject "CozyMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D327F21C0D3ED3000E4837 /* Debug */,
+				D5D327F31C0D3ED3000E4837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D327F41C0D3ED3000E4837 /* Build configuration list for PBXNativeTarget "CozyMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D327F51C0D3ED3000E4837 /* Debug */,
+				D5D327F61C0D3ED3000E4837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D327DA1C0D3ED3000E4837 /* Project object */;
+}
